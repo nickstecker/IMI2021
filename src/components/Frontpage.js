@@ -1,3 +1,4 @@
+import React from 'react';
 import {Container, Jumbotron} from "react-bootstrap";
 import Vid from './files/Fall - 23881.mp4'
 import '../App.css'
