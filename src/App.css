@@ -2,12 +2,8 @@
   text-align: center;
 }
 
-.Heading{
-  font-size: 145px;
-}
-
 .bg-video{
-  position: absolute;
+  position: fixed;
   width: 100%;
   left: 50%;
   top: 50%;
@@ -17,3 +13,21 @@
   z-index: -1;
 }
 
+.heading{
+  color: aliceblue;
+  font-size: 150px;
+  margin-top: 25%;
+}
+
+.jumbo{
+  margin-top: 25%;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  background-color: papayawhip;
+  opacity: 85%;
+}
+
+.jumbotron .sec-head{
+  font-size: 50px;
+}

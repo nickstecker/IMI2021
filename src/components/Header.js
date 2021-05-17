@@ -2,11 +2,12 @@ import {Navbar, Nav} from "react-bootstrap";
 
 const Header = () => {
     return (
-        <Navbar bg="dark" variant="dark" className="justify-content-center">
+        <Navbar bg="dark" variant="dark" sticky={"top"} className="justify-content-center">
             <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#info">Projektidee</Nav.Link>
+            <Nav.Link href="#process">Prozess</Nav.Link>
+            <Nav.Link href="#design">Design</Nav.Link>
+            <Nav.Link href="#dummy">Click-Dummy</Nav.Link>
             </Nav>
         </Navbar>
     );
