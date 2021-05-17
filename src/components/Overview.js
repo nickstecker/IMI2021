@@ -1,4 +1,5 @@
 import {Jumbotron} from "react-bootstrap";
+import '../App.css'
 
 const Overview = () => {
     return (
