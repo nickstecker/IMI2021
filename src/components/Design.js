@@ -4,8 +4,8 @@ import '../App.css'
 
 const Design = () => {
     return (
-        <Jumbotron fluid className={"jumbo"}>
-            <p className={"sec-head"} id={"design"}><b>Projektdesign</b></p>
+        <Jumbotron fluid className={"jumbo"} id={"design"}>
+            <p className={"sec-head"}><b>Projektdesign</b></p>
         </Jumbotron>
     );
 }

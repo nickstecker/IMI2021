@@ -10,7 +10,7 @@ import Dummy from "./components/Dummy";
 function App() {
   return (
     <div className="App">
-      <Header text = "hi" />
+      <Header />
       <Frontpage />
       <Overview />
       <Process />

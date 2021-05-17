@@ -10,7 +10,7 @@ const Frontpage = () => {
                 <source src={Vid}/>
             </video>
             <Container>
-                <h1 className={"heading"}>HolidayVR</h1>
+                <h1>HolidayVR</h1>
             </Container>
         </Container>
     );
