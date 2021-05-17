@@ -1,13 +1,13 @@
 import './App.css';
 import Header from './components/Header.js'
 import Button from 'react-bootstrap/Button';
+import Frontpage from './components/Frontpage'
 
 function App() {
   return (
     <div className="App">
-      <Header text = "hi"/>
-      <h1 className="Heading"> HolidayVR </h1>
-      <Button variant="warning">Click me</Button>
+      <Header text = "hi" />
+      <Frontpage />
       
     </div>
   );
