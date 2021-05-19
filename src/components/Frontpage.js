@@ -1,11 +1,11 @@
 import React from 'react';
-import {Container, Jumbotron} from "react-bootstrap";
+import {Container, Jumbotron, Badge} from "react-bootstrap";
 import Vid from './files/Fall - 23881.mp4'
 import '../App.css'
 
 const Frontpage = () => {
     return (
-        <Container className={"container"}>
+        <Container>
             <video autoPlay loop muted className={"bg-video"}>
                 <source src={Vid}/>
             </video>

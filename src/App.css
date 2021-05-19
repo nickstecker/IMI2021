@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
+
+
+
 .App {
   text-align: center;
+  font-family: 'MuseoModerno';
 }
 
 .bg-video{
@@ -25,8 +30,19 @@
   width: 100%;
   position: relative;
   background-color: papayawhip;
+  padding-bottom: 15px;
+  padding-top: 70px;
 }
 
-.jumbotron .sec-head{
+.sec-head{
   font-size: 50px;
+}
+
+.Designcard{
+  width: 18rem;
+  border: 20px black;
+}
+
+.Designcardbody {
+  background-color: navajowhite;
 }
