@@ -5,7 +5,7 @@ import '../App.css'
 const Process = () => {
     return (
         <Jumbotron fluid className={"jumbo"} id={"process"}>
-            <h2 className={"sec-head"}>Projektprozess</h2>
+            <h2 className={"sec-head"}><u>Projektprozess</u></h2>
         </Jumbotron>
     );
 }

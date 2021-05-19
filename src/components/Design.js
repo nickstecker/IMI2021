@@ -5,16 +5,18 @@ import {
     Image,
     Col,
     Card,
-    CardColumns,
     ListGroup,
     ListGroupItem,
-    CardGroup, CardDeck
+    CardDeck, Carousel,
 } from "react-bootstrap";
 import '../App.css'
 import Moodboard from './files/HolidayVR.jpg'
 import CardImage1 from './files/cityliving.png'
 import CardImage2 from './files/random.png'
 import CardImage3 from './files/paris.png'
+import Image1 from './files/unity1.jpg'
+import Image2 from './files/unity2.PNG'
+
 
 const Design = () => {
     return (
@@ -24,9 +26,9 @@ const Design = () => {
                 <Col>
                     <Image src={Moodboard} rounded fluid></Image>
                 </Col>
-                <hr />
+                <hr className={"spacer"}/>
                 <CardDeck style={{display: 'flex', flexDirection: 'row'}}>
-                    <Card className={"Designcard"} border={"secondary"} style={{flex: '1'}}>
+                    <Card className={"Designcard"} border={"dark"} style={{flex: '1'}}>
                         <Card.Img variant="top" src={CardImage1}/>
                         <Card.Body className={"Designcardbody"}>
                             <Card.Title><b>Besuchen Sie bekannte Orte im neuen Setting</b></Card.Title>
@@ -38,7 +40,7 @@ const Design = () => {
                             <ListGroupItem>Abstrahierte Neuinterpretation</ListGroupItem>
                         </ListGroup>
                     </Card>
-                    <Card className={"Designcard"} border={"secondary"} style={{flex: '1', marginLeft: '5px'}}>
+                    <Card className={"Designcard"} border={"dark"} style={{flex: '1', marginLeft: '5px'}}>
                         <Card.Img variant="top" src={CardImage2}/>
                         <Card.Body className={"Designcardbody"}>
                             <Card.Title><b>Entdecken Sie neue Orte auf der ganzen Welt</b></Card.Title>
@@ -50,7 +52,7 @@ const Design = () => {
                             <ListGroupItem>Entdecken aus einer neuen Perspektive</ListGroupItem>
                         </ListGroup>
                     </Card>
-                    <Card className={"Designcard"} border={"primary"} style={{flex: '1', marginLeft: '5px'}}>
+                    <Card className={"Designcard"} border={"dark"} style={{flex: '1', marginLeft: '5px'}}>
                         <Card.Img variant="top" src={CardImage3}/>
                         <Card.Body className={"Designcardbody"}>
                             <Card.Title><b>Besuchen Sie die Touristen Hotspots auf der ganzen Welt</b></Card.Title>
@@ -58,11 +60,37 @@ const Design = () => {
                         </Card.Body>
                         <ListGroup className={"list-group-flush"}>
                             <ListGroupItem>Große Städte und Denkmäler</ListGroupItem>
-                            <ListGroupItem>Die Natur hohlt sich ihren Lebensraum zurück</ListGroupItem>
+                            <ListGroupItem>Sightseeing goes VR</ListGroupItem>
                             <ListGroupItem>Attraktionen</ListGroupItem>
                         </ListGroup>
                     </Card>
                 </CardDeck>
+                <Card border={"dark"} style={{marginTop: '20px', backgroundColor: '#ffdead'}}>
+                    <Card.Title><h2 className={"sec-head"} style={{marginTop: '10px'}}><u>3D-Visualisierung</u></h2>
+                    </Card.Title>
+                    <Card.Body>
+                        <Carousel>
+                            <Carousel.Item>
+                                <img
+                                    className={"d-block w-100"}
+                                    src={Image1}
+                                    width={"20px"}
+                                    height={"10%"}
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className={"d-block w-100"}
+                                    src={Image2}
+                                    width={"20px"}
+                                    height={"10%"}
+                                />
+                            </Carousel.Item>
+                        </Carousel>
+                    </Card.Body>
+                    <Card.Footer>
+                    </Card.Footer>
+                </Card>
             </Container>
         </Jumbotron>
     );
