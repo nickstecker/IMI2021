@@ -16,8 +16,7 @@ const Overview = () => {
             </div>
             <hr className={"spacer"}/>
             <div className={"textContainer"}>
-                <h3><u>Telepräsent, überall</u></h3>
-                <p>Lorem Ipsum</p>
+                <h3>Telepräsent, überall!</h3>
             </div>
 
         </Jumbotron>
