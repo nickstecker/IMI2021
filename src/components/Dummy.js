@@ -6,8 +6,10 @@ const Dummy = () => {
     return (
         <Jumbotron fluid className={"jumbo"} id={"dummy"}>
             <h2 className={"sec-head"}><u>Click-Dummy</u></h2>
-            <br />
-            <Button variant={"outline-info"} size={"lg"}>Coming soon..!</Button>
+            <iframe style={{width:"100%", height:"480px", border: null }} src="https://poly.google.com/view/6PRDAc0a5J0/embed?chrome=min"
+            frameBorder="0" allowvr="yes"
+            allow="vr; xr; accelerometer; magnetometer; gyroscope; autoplay;" allowFullScreen
+            mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""/>
         </Jumbotron>
     );
 }
