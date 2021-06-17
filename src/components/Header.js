@@ -30,7 +30,7 @@ const Header = () => {
                     </Nav.Item>
                 </Nav>
                 
-                <Button href="#dummy" variant="outline-warning">Click-Dummy</Button>
+                <a href="#dummy"><button className={"noselect"} style={{marginRight: "10px"}}></button></a>
             </Navbar.Collapse>
         </Navbar>
 
