@@ -1,21 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
 
 
-
 .App {
   text-align: center;
   font-family: 'MuseoModerno';
 }
 
-.bg-video{
-  position: fixed;
-  width: 100%;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  object-fit: cover;
-  transform: translate(-50%, -50%);
-  z-index: -1;
+.bgImage{
+    background-image: url(./components/files/bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
 }
 
 .heading{
@@ -24,12 +19,18 @@
   margin-top: 25%;
 }
 
+.navLink{
+    color: white;
+}
+
 .jumbo{
+    text-align: center;
+    color: aliceblue;
   margin-top: 25%;
   background-size: cover;
+    background-color: rgba(16, 16, 16, 0.6);
   width: 100%;
   position: relative;
-  background-color: #ffefd5;
   padding-bottom: 15px;
   padding-top: 70px;
   border-top: black 2px;
@@ -123,4 +124,59 @@ button:hover {
 
 button:focus {
 	outline: none;
+}
+
+.middle {
+    text-align: center!important;
+    transform: translate(0%, 0%);
+}
+
+.text {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 60px;
+  letter-spacing: 14px;
+}
+
+.text::before, .text::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.text::before {
+  color: blue;
+  animation: glitch-effect 3s infinite;
+}
+
+.text::after {
+  color: red;
+  animation: glitch-effect 2s infinite;
+}
+
+@keyframes glitch-effect {
+  0% {
+    left: -2px;
+    top: -2px;
+  }
+  25% {
+    left: 2px;
+    top: 0px;
+  }
+  50% {
+    left: -1px;
+    top: 2px;
+  }
+  75% {
+    left: 1px;
+    top: -1px;
+  }
+  100% {
+    left: 0px;
+    top: -2px;
+  }
 }

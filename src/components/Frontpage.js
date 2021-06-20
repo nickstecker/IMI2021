@@ -28,9 +28,6 @@ const Frontpage = () => {
     }, []);
     return (
         <Container>
-            <video autoPlay loop muted className={"bg-video"}>
-                <source src={Vid}/>
-            </video>
             <Col>
                 <Image src={Logo} fluid ></Image>
                 <hr className={"spacer"} style={{color: 'white', height: '2px'}}/>

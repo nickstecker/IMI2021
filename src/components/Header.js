@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const Header = () => {
     return (
-        <Navbar bg="dark" variant="dark" sticky="top" expand="sm">
+        <Navbar style={{backgroundColor: "black"}} sticky="top" expand="sm">
             
             <Navbar.Brand>
                 <img src={logo} height="45px"/>
@@ -17,16 +17,16 @@ const Header = () => {
                     <p style={{marginLeft: "10px"}}></p>
                     <Nav>
                     <Nav.Item>
-                        <Nav.Link href="#info">Projektidee</Nav.Link>
+                        <Nav.Link href="#info" style={{color: "white"}}>Projektidee</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="#process">Prozess</Nav.Link>
+                        <Nav.Link href="#process" style={{color: "white"}}>Prozess</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="#design">Design</Nav.Link>
+                        <Nav.Link href="#design" style={{color: "white"}}>Design</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="#new">Neues</Nav.Link>
+                        <Nav.Link href="#new" style={{color: "white"}}>Neues</Nav.Link>
                     </Nav.Item>
                 </Nav>
                 
