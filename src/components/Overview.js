@@ -1,10 +1,16 @@
 import React from 'react';
-import {Jumbotron} from "react-bootstrap";
+import {Jumbotron, Row, Col} from "react-bootstrap";
 import '../App.css'
 
 const Overview = () => {
     return (
         <Jumbotron fluid className={"jumbo"} id={"info"}>
+            <Row className="hazard">
+                <Col>DO NOT ENTER</Col>
+                <Col>DO NOT ENTER</Col>
+                <Col>DO NOT ENTER</Col>
+                <Col>DO NOT ENTER</Col>
+            </Row>
             <h2 className={"sec-head"}><u>Projektidee</u></h2>
             <div className={"textContainer"}>
                 <p>HolidayVR ist eine virtuelle Anwendung, die dem Nutzer neue und noch nie dagewesene Sinneseindrücke

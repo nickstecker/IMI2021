@@ -3,6 +3,7 @@ import {
     Jumbotron,
     Container,
     Image,
+    Row,
     Col,
     Card,
     ListGroup,
@@ -21,6 +22,12 @@ import Image2 from './files/unity2.PNG'
 const Design = () => {
     return (
         <Jumbotron fluid className={"jumbo"} id={"design"}>
+            <Row className="hazard">
+                <Col>DO NOT ENTER</Col>
+                <Col>DO NOT ENTER</Col>
+                <Col>DO NOT ENTER</Col>
+                <Col>DO NOT ENTER</Col>
+            </Row>
             <h2 className={"sec-head"}><u>Projektdesign</u></h2>
             <Container>
                 <Col>
@@ -65,7 +72,7 @@ const Design = () => {
                         </ListGroup>
                     </Card>
                 </CardDeck>
-                <Card border={"dark"} style={{marginTop: '20px', backgroundColor: '#ffdead'}}>
+                <Card border={"dark"} style={{marginTop: '20px', backgroundColor: '#181818'}}>
                     <Card.Title><h2 className={"sec-head"} style={{marginTop: '10px'}}><u>3D-Visualisierung</u></h2>
                     </Card.Title>
                     <Card.Body>
