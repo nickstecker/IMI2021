@@ -20,20 +20,17 @@ const Process = () => {
                             <li>Nutzer sich über das Projekt informieren</li>
                             <li>Nutzer bekommt eine Übersicht über die verwendeten Technologien</li>
                             <li>Nutzer kann auf VR-Anwendung zugreifen</li>
-                            <li>Umgesetzt mit React.js</li>
+                            <li>Umgesetzt mit React.js und Bootstrap</li>
                         </ul>
                         <hr className={"spacer"}/>
                         <h3>VR-Anwendung</h3>
                         <ul className={"textContainer"}>
-                            <li>Mapdaten von MapboxSDK</li>
+                            <li>Mapdaten von Google Street View</li>
                             <li>Soundgenerierung in Unity</li>
                             <li>First Person Ansicht durch Unity</li>
-                            <li>Eigene Meshes generieren</li>
+                            <li>Eigene Touren generieren</li>
                         </ul>
                     </Col>
-                </Row>
-                <Row>
-                    <Image src={Technik}></Image>
                 </Row>
             </Container>
         </Jumbotron>
