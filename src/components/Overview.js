@@ -4,13 +4,7 @@ import '../App.css'
 
 const Overview = () => {
     return (
-        <Jumbotron fluid className={"jumbo"} id={"info"}>
-            <Row className="hazard">
-                <Col>DO NOT ENTER</Col>
-                <Col>DO NOT ENTER</Col>
-                <Col>DO NOT ENTER</Col>
-                <Col>DO NOT ENTER</Col>
-            </Row>
+        <Jumbotron fluid className={"jumbo2"} id={"info"}>
             <h2 className={"sec-head"}><u>Projektidee</u></h2>
             <div className={"textContainer"}>
                 <p>HolidayVR ist eine virtuelle Anwendung, die dem Nutzer neue und noch nie dagewesene Sinneseindrücke

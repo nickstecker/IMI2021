@@ -5,8 +5,8 @@ import '../App.css'
 const Tschernobyl = () => {
     return (
         <Jumbotron fluid className={"jumbo"} id={"tschernobyl"}>
-            <Row className="hazard" style={{marginRight: "10%", marginLeft: "10%"}}>
-                <Col><p className="sec-head"><b>EXPLORE THE FORBIDDEN</b></p></Col>
+            <Row className={"hazard sec-head"}>
+                <Col><p><b>EXPLORE THE FORBIDDEN</b></p></Col>
             </Row>
         
             <hr className={"spacer"}/>

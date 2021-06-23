@@ -21,13 +21,7 @@ import Image2 from './files/unity2.PNG'
 
 const Design = () => {
     return (
-        <Jumbotron fluid className={"jumbo"} id={"design"}>
-            <Row className="hazard">
-                <Col>DO NOT ENTER</Col>
-                <Col>DO NOT ENTER</Col>
-                <Col>DO NOT ENTER</Col>
-                <Col>DO NOT ENTER</Col>
-            </Row>
+        <Jumbotron fluid className={"jumbo2"} id={"design"}>
             <h2 className={"sec-head"}><u>Projektdesign</u></h2>
             <Container>
                 <Col>

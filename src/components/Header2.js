@@ -4,9 +4,9 @@ import new_logo from './files/logo.png'
 import {Navbar, Nav, NavDropdown, Form, FormControl, Button} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.css';
 
-const Header = () => {
+const Header2 = () => {
     return (
-        <Navbar style={{backgroundColor: "black"}} sticky="top" expand="sm">
+        <Navbar style={{backgroundColor: "rgba(10, 10, 10, 0.6)"}} sticky="top" expand="sm">
             
             <Navbar.Brand>
                 <img src={logo} height="45px"/>
@@ -30,11 +30,11 @@ const Header = () => {
                     </Nav.Item>
                 </Nav>
                 
-                <a href="/main"><button className={"noselect"} style={{marginRight: "10px"}}></button></a>
+                <a className="bn39" href="/"><span className="bn39span">Back...</span></a>
             </Navbar.Collapse>
         </Navbar>
 
     );
 }
 
-export default Header
+export default Header2

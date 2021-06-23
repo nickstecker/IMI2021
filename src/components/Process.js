@@ -6,13 +6,7 @@ import Technik from './files/technik.png'
 
 const Process = () => {
     return (
-        <Jumbotron fluid className={"jumbo"} id={"process"}>
-            <Row className="hazard">
-                <Col>DO NOT ENTER</Col>
-                <Col>DO NOT ENTER</Col>
-                <Col>DO NOT ENTER</Col>
-                <Col>DO NOT ENTER</Col>
-            </Row>
+        <Jumbotron fluid className={"jumbo2"} id={"process"}>
             <h2 className={"sec-head"}><u>Projektprozess</u></h2>
             <Container>
                 <Row>

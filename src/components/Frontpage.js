@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Jumbotron, Badge, Image, Col} from "react-bootstrap";
-import Vid from './files/Fall - 23881.mp4'
+import Vid from './files/bg1.jpg'
 import '../App.css'
 import Logo from "./files/logo.png";
 import TextTransition, {presets} from "react-text-transition";

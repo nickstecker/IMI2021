@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from './components/Header.js';
 import Header2 from './components/Header2.js';
-import Frontpage2 from './components/Frontpage2';
+import Video from './components/Video';
 import Frontpage from './components/Frontpage';
 import Overview from "./components/Overview";
 import Process from "./components/Process";
@@ -17,20 +17,24 @@ function App() {
         <div className="App" className="bgImage">
       
             <Switch>
-                
-                <Route path="/">     
-                    <Header />
-                    <Frontpage2 />
-                    <Dummy />
-                    <Tschernobyl />
-                </Route>
       
                 <Route path="/main">
-                    <Header2 />
-                    <Frontpage />
-                    <Overview />
-                    <Process />
-                    <Design />
+                    <div className="bgImage2">
+                        <Header2 />
+                        <Frontpage />
+                        <Overview />
+                        <Process />
+                        <Design />  
+                    </div>
+                </Route>
+                
+                <Route path="/">
+                    <div className="bgImage">
+                        <Header />
+                        <Video />
+                        <Dummy />
+                        <Tschernobyl />
+                    </div>
                 </Route>
       
             </Switch>
