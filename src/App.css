@@ -48,7 +48,7 @@
 .jumbo2{
     text-align: center;
     color: aliceblue;
-    background-color: rgba(176, 224, 230, 0.2);
+    background-color: rgba(176, 224, 230, 0.8);
     width: 100%;
     position: relative;
     padding-bottom: 15px;
@@ -67,14 +67,23 @@
 }
 
 .sec-head{
+    -webkit-text-stroke: 1px white;
+    margin-left: 10%!important;
+    margin-right: 10%!important;
+    color: black;
+}
+
+.sec-head-2{
     -webkit-text-stroke: 1px black;
     margin-left: 10%!important;
     margin-right: 10%!important;
+    color: white;
 }
 
 .Designcard{
   width: 18rem;
   border: 20px black;
+  color: black;
 }
 
 .Designcardbody {
@@ -85,9 +94,20 @@
   margin: auto;
   width: 70%;
   font-size: 20px;
+  color: black;
   /*
   padding-left: 50px;
   padding-right: 50px;*/
+}
+
+.textContainer2{
+    margin: auto;
+    width: 70%;
+    font-size: 20px;
+    color: white;
+    /*
+    padding-left: 50px;
+    padding-right: 50px;*/
 }
 
 .headingContainer{

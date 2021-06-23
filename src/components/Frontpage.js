@@ -31,9 +31,9 @@ const Frontpage = () => {
             <Col>
                 <Image src={Logo} fluid ></Image>
                 <hr className={"spacer"} style={{color: 'white', height: '2px'}}/>
-                <section style={{visibility: "true", fontSize: "120px", color: 'black', position: 'sticky', webkitTextStroke: '1px white'}}>
+                <section style={{visibility: "true", fontSize: "120px", color: 'black', position: 'sticky', webkitTextStroke: '1px white', textAlign: 'center'}}>
                 <TextTransition text={ TEXTS[index % TEXTS.length] }
-                                springConfig={presets.wobbly} style={{visibility: "true", fontSize: "100px", color: 'white', position: 'sticky'}} inline={"true"}/>
+                                springConfig={presets.wobbly} style={{visibility: "true", fontSize: "100px", color: 'white'}} inline={"true"}/>
                      VR
                 </section>
             </Col>

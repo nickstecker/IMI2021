@@ -22,7 +22,7 @@ import Image2 from './files/unity2.PNG'
 const Design = () => {
     return (
         <Jumbotron fluid className={"jumbo2"} id={"design"}>
-            <h2 className={"sec-head"}><u>Projektdesign</u></h2>
+            <h2 className={"sec-head"}><u><b>Projektdesign</b></u></h2>
             <Container>
                 <Col>
                     <Image src={Moodboard} rounded fluid></Image>
@@ -66,32 +66,7 @@ const Design = () => {
                         </ListGroup>
                     </Card>
                 </CardDeck>
-                <Card border={"dark"} style={{marginTop: '20px', backgroundColor: '#181818'}}>
-                    <Card.Title><h2 className={"sec-head"} style={{marginTop: '10px'}}><u>3D-Visualisierung</u></h2>
-                    </Card.Title>
-                    <Card.Body>
-                        <Carousel>
-                            <Carousel.Item>
-                                <img
-                                    className={"d-block w-100"}
-                                    src={Image1}
-                                    width={"20px"}
-                                    height={"10%"}
-                                />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img
-                                    className={"d-block w-100"}
-                                    src={Image2}
-                                    width={"20px"}
-                                    height={"10%"}
-                                />
-                            </Carousel.Item>
-                        </Carousel>
-                    </Card.Body>
-                    <Card.Footer>
-                    </Card.Footer>
-                </Card>
+
             </Container>
         </Jumbotron>
     );
